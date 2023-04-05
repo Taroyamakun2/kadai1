@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A9B;
+}
+
+.main {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-visual {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-left {
+  width: 300px;
+  height: 250px;
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-step1 {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  color : #FFF;
+  background-color: #FF9A4B;
+}
+
+.main-left-img {
+  height: 150px;
+  margin: 10px 10px auto 10px;
+  background-image: url(img/flow01.png);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.lefttitle {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.lefttext {
+  font-size: 2px;
+}
+
+.main-center {
+  width: 300px;
+  height: 250px;
+  background-color: #EEEEEE;
+  margin: 50px 30px ;
+}
+
+.main-step2 {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  color : #FFF;
+  background-color: #FF9A4B;
+}
+
+.main-center-img {
+  height: 150px;
+  margin: 10px 10px auto 10px;
+  background-image: url(img/flow02.png);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.centertitle {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.centertext {
+  font-size: 2px;
+}
+
+.main-right {
+  width: 300px;
+  height: 250px;
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-step3 {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  color : #FFF;
+  background-color: #FF9A4B;
+}
+
+.main-right-img {
+  height: 150px;
+  margin: 10px 10px auto 10px;
+  background-image: url(img/flow03.png);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.righttitle {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.righttext {
+  font-size: 2px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+@media screen and (max-width:768px) {
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .main-visual {
+    width: 100%;
+    display: block;
+  }
+
+  .main-left {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .main-center {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main-right {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+
+
